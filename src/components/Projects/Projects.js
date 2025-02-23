@@ -36,6 +36,17 @@ function Projects() {
 
           <Col md={4} className="project-card">
             <ProjectCard
+              imgPath={tp}
+              isBlog={false}
+              title="Public Transportation Scheduling System (PTSS)"
+              description="A transport management web app enabling users to search routes, book trips, and manage bookings. Designed system workflows using BPMN, UML, DFDs, and ERDs. Conducted business modeling, process mapping, and use case analysis to optimize route planning and ticketing. Defined system requirements and developed an ERD for database integration."
+              ghLink="https://github.com/AhmAlkalii/Transport-Management-System"
+              // demoLink="https://www.youtube.com/watch?v=dQw4w9WgXcQ&ab_channel=RickAstley" <--------Please include a demo link here
+            />
+          </Col>
+          
+          <Col md={4} className="project-card">
+            <ProjectCard
               imgPath={ec}
               isBlog={false}
               title="E-Commerce Platform"
@@ -78,16 +89,6 @@ function Projects() {
             />
           </Col>
 
-          <Col md={4} className="project-card">
-            <ProjectCard
-              imgPath={tp}
-              isBlog={false}
-              title="Public Transportation Scheduling System (PTSS)"
-              description="A transport management web app enabling users to search routes, book trips, and manage bookings. Designed system workflows using BPMN, UML, DFDs, and ERDs. Conducted business modeling, process mapping, and use case analysis to optimize route planning and ticketing. Defined system requirements and developed an ERD for database integration."
-              ghLink="https://github.com/AhmAlkalii/Transport-Management-System"
-              // demoLink="https://www.youtube.com/watch?v=dQw4w9WgXcQ&ab_channel=RickAstley" <--------Please include a demo link here
-            />
-          </Col>
 
           <Col md={4} className="project-card">
             <ProjectCard
